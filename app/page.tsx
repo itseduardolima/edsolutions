@@ -2,6 +2,7 @@
 
 import Header from "@/components/Header";
 import HeroSection from "@/components/sections/Hero";
+import ProcessSection from "@/components/sections/Process";
 import ServicesSection from "@/components/sections/Services";
 
 export default function HomePage() {
@@ -11,6 +12,7 @@ export default function HomePage() {
       <main>
         <HeroSection />
         <ServicesSection />
+        <ProcessSection />
       </main>
     </div>
   );
