@@ -2,6 +2,7 @@
 
 import Header from "@/components/Header";
 import HeroSection from "@/components/sections/Hero";
+import ServicesSection from "@/components/sections/Services";
 
 export default function HomePage() {
   return (
@@ -9,6 +10,7 @@ export default function HomePage() {
       <Header />
       <main>
         <HeroSection />
+        <ServicesSection />
       </main>
     </div>
   );
