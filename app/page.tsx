@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/sections/Hero";
 import PortfolioSection from "@/components/sections/Portfolio";
 import ProcessSection from "@/components/sections/Process";
+import ReasonsSection from "@/components/sections/Reasons";
 import ServicesSection from "@/components/sections/Services";
 import TestimonialsSection from "@/components/sections/Testimonials";
 
@@ -17,6 +18,7 @@ export default function HomePage() {
         <ProcessSection />
         <PortfolioSection />
         <TestimonialsSection />
+        <ReasonsSection />
       </main>
     </div>
   );
