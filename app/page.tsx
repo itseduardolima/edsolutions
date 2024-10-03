@@ -2,6 +2,7 @@
 
 import Header from "@/components/Header";
 import HeroSection from "@/components/sections/Hero";
+import PortfolioSection from "@/components/sections/Portfolio";
 import ProcessSection from "@/components/sections/Process";
 import ServicesSection from "@/components/sections/Services";
 
@@ -13,6 +14,7 @@ export default function HomePage() {
         <HeroSection />
         <ServicesSection />
         <ProcessSection />
+        <PortfolioSection />
       </main>
     </div>
   );
