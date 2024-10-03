@@ -12,6 +12,9 @@ import { useEffect, useState } from "react";
 import ScrollToTop from "@/components/ScrollToTop";
 import MouseFollower from "@/components/MouseFollower";
 import Footer from "@/components/Footer";
+import ContactSection from "@/components/sections/Contact";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function HomePage() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -36,10 +39,12 @@ export default function HomePage() {
         <ProcessSection />
         <PortfolioSection />
         <TestimonialsSection />
+        <ContactSection />
         <ReasonsSection />
       </main>
       <Footer />
       <ScrollToTop />
+      <ToastContainer />
       <MouseFollower mousePosition={mousePosition} />
       <motion.div
         style={{ opacity }}
