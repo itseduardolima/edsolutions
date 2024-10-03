@@ -9,7 +9,7 @@ const ReasonsSection = () => {
         Por que Escolher a EdSolutions?
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {reasons.map((item, index) => (
+        {reasons.map((item) => (
           <motion.div
             key={item.title}
             className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
